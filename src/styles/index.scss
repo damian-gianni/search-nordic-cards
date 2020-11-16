@@ -1,0 +1,28 @@
+@import "./variables.scss";
+@import "./mixins";
+
+body {
+  margin: 0;
+  font-family: $meli-font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: $spacing-50;
+  background: $white-smoke;
+
+  input[type="text"] {
+    width: 30%;
+    height: $spacing-25;
+    font-size: $font-size-16;
+  }
+
+  code {
+    font-family: $meli-font-code;
+  }
+
+  table {
+    width: 30%;
+    border-collapse: collapse;
+    background: $white;
+    margin-top: $spacing-40;
+  }
+}
